@@ -3,10 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Forms Test</title>
   </head>
   <body>
-    <main></main>
+    <main>
+      <form action="">
+        <h2>Log In</h1>
+        <div class="login">
+          <label for="username">Username:</label>
+          <input
+            type="username"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <button type="submit">Log In</button>
+        </div>
+      </form>
+      <form class="SignUp" action="">
+        <h2>Sign Up for Newsletter</h2>
+        <label for="email">E-mail:</label>
+        <input type="email" placeholder="Enter E-mail" name="email" required>
+        <label for="subjects">Choose the subjects you want to sign up for:</label>
+        <label>
+            <input class="checkbox" type="checkbox" name="interesser" value="sport">
+            Sport
+        </label>
+        <label>
+            <input class="checkbox" type="checkbox" name="interesser" value="music">
+            Music
+        </label>
+        <label>
+            <input class="checkbox" type="checkbox" name="interesser" value="film">
+            Film
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>

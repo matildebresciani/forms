@@ -1,0 +1,13 @@
+form {
+    width: 12rem;
+    border: 1px solid;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+label, input, button {
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
